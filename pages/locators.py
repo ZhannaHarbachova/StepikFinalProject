@@ -13,10 +13,6 @@ class BasketPageLocators:
     TABLE_ITEMS = (By.CSS_SELECTOR, ".basket-items")
 
 
-class MainPageLocators:
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-
-
 class LoginPageLocators:
     LOGIN_FORM = (By.ID, "login_form")
     REGISTER_FORM = (By.ID, "register_form")
@@ -24,6 +20,10 @@ class LoginPageLocators:
     PASSWORD_REGISTRATION = (By.ID, "id_registration-password1")
     PASSWORD_CONFIRM = (By.ID, "id_registration-password2")
     REGISTER_BUTTON = (By.CSS_SELECTOR, "#register_form button")
+
+
+class MainPageLocators:
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
 
 class ProductPageLocators:
